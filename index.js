@@ -43,7 +43,7 @@ function calculateBMI() {
     } else {
       alert("not healthy");
     }
-  } else if (age >= 55 && age < 64) {
+  } else if (age >= 55 && age <= 64) {
     if (bmi >= 23 && bmi <= 28) {
       alert("healthy");
     } else {
